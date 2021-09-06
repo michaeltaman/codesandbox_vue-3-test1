@@ -27,7 +27,8 @@ export default {
 
       console.log("here", this.items[this.items.length - 1] === newItem);
       setTimeout(() => {
-        newItem.price = "over 9000";
+        /////newItem.price = "over 9000";
+        this.items[this.items.length - 1].price = 345;
       }, 3000);
     },
   },
